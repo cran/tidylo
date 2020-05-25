@@ -1,0 +1,16 @@
+ecb9db234955b495644545c7f425cf2a *DESCRIPTION
+046ff49538c517231de4a73989b9b52a *LICENSE
+56cea20660751246680d378d9ff7c76f *NAMESPACE
+fb83de7a60b44db514420a5c669e843f *NEWS.md
+65c68a65875d696bd196cdcb0a0c08da *R/bind_log_odds.R
+c52f52fb46184bcadaee8f5a4269f85d *R/globals.R
+27422861748a056525792855a9a59935 *README.md
+6cab850cbce247a8e25aa188172b78b2 *build/vignette.rds
+c71becc2df4055c3b9fa0ddde1c27c60 *inst/doc/tidy_log_odds.R
+ed6173e3eff1151ad6b28699aecfba44 *inst/doc/tidy_log_odds.Rmd
+cb2f16b5d009e5e2f837aa30bd333468 *inst/doc/tidy_log_odds.html
+0e2c77755d73020117496bdd25f88e71 *man/bind_log_odds.Rd
+e355a5b9930d6efc7e131783a05daa3b *man/figures/README-bigram_plot-1.png
+a9bed1dcd7fda78712c345498686d799 *tests/testthat.R
+4940775b60ab80de5e981264712d7635 *tests/testthat/test-bind-log-odds.R
+ed6173e3eff1151ad6b28699aecfba44 *vignettes/tidy_log_odds.Rmd

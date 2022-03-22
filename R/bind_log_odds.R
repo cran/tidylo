@@ -35,8 +35,9 @@
 #'     log odds without variance stabilization.
 #'
 #' @details The arguments `set`, `feature`, and `n`
-#' are passed by expression and support [rlang::quasiquotation];
-#' you can unquote strings and symbols. Grouping is preserved but ignored.
+#' are passed by expression and support
+#' \code{\link[rlang:nse-force]{rlang::quasiquotation}}; you can unquote strings
+#' and symbols. Grouping is preserved but ignored.
 #'
 #' The default empirical Bayes prior inflates feature counts in each group
 #' by total feature counts across all groups. This is like using a moment
@@ -54,7 +55,7 @@
 #' more on the weighted log odds ratio.
 #'
 #' @references
-#'  1. Monroe, B. L., Colaresi, M. P. & Quinn, K. M. Fightin' Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict. Polit. anal. 16, 372-403 (2008). <https://doi.org/10.1093/pan/mpn018>
+#'  1. Monroe, B. L., Colaresi, M. P. & Quinn, K. M. Fightin' Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict. Polit. anal. 16, 372-403 (2008). \doi{10.1093/pan/mpn018}
 #'
 #'  2. Minka, T. P. Estimating a Dirichlet distribution. (2012). <https://tminka.github.io/papers/dirichlet/minka-dirichlet.pdf>
 #'

@@ -45,8 +45,9 @@ tidyeval framework.
 }
 \details{
 The arguments \code{set}, \code{feature}, and \code{n}
-are passed by expression and support \link[rlang:quasiquotation]{rlang::quasiquotation};
-you can unquote strings and symbols. Grouping is preserved but ignored.
+are passed by expression and support
+\code{\link[rlang:nse-force]{rlang::quasiquotation}}; you can unquote strings
+and symbols. Grouping is preserved but ignored.
 
 The default empirical Bayes prior inflates feature counts in each group
 by total feature counts across all groups. This is like using a moment
@@ -89,7 +90,7 @@ unregularized
 }
 \references{
 \enumerate{
-\item Monroe, B. L., Colaresi, M. P. & Quinn, K. M. Fightin' Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict. Polit. anal. 16, 372-403 (2008). \url{https://doi.org/10.1093/pan/mpn018}
+\item Monroe, B. L., Colaresi, M. P. & Quinn, K. M. Fightin' Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict. Polit. anal. 16, 372-403 (2008). \doi{10.1093/pan/mpn018}
 \item Minka, T. P. Estimating a Dirichlet distribution. (2012). \url{https://tminka.github.io/papers/dirichlet/minka-dirichlet.pdf}
 }
 }
